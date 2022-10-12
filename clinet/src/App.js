@@ -1,25 +1,21 @@
 import './styles/App.css';
-import { aboutMe } from './components/about-me';
+import { AboutMe } from './components/about-me';
+import { Portfolio } from './components/portfolio';
+import { Contact } from './components/contact';
+import { Resume } from './components/resume';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export function AboutMePage() {
+  return <AboutMe />;
 }
 
-export default App;
+export function PortfolioPage() {
+  return <Portfolio />;
+}
+
+export function ContactPage(){
+  return <Contact />;
+}
+
+export function ResumePage(){
+  return <Resume />
+}
