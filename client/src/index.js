@@ -18,6 +18,7 @@ function handleNavbarClick(event) {
   console.log(location.text)
 
   switch (location.text) {
+    // add class (active) to whatever link was clicked
     case 'About Me':
       root.render(
         <AboutMePage />
@@ -37,6 +38,8 @@ function handleNavbarClick(event) {
       root.render(
         <ContactPage />
       );
+      break;
+    case undefined:
       break;
     default:
       root.render(
