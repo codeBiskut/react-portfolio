@@ -1,4 +1,4 @@
-export function Contact(){
+function Contact(){
     return(
         <div id="contact-page">
             Here's where the form will go!
@@ -7,3 +7,5 @@ export function Contact(){
         </div>
     )
 }
+
+export default Contact;

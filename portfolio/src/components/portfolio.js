@@ -1,4 +1,4 @@
-export function Portfolio() {
+function Portfolio() {
     return (
         <div>
             <div id="portfolio-page" className="card">
@@ -10,3 +10,5 @@ export function Portfolio() {
         </div>
     )
 }
+
+export default Portfolio;

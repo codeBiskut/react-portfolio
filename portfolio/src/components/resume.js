@@ -1,4 +1,4 @@
-export function Resume(){
+function Resume(){
     return(
         <div id="resume-page">
             This is where your resume will go!
@@ -6,3 +6,5 @@ export function Resume(){
         </div>
     )
 }
+
+export default Resume;
