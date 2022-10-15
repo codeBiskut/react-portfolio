@@ -26,6 +26,7 @@ function Contact() {
     };
 
     const handleChange = (e) => {
+
         setToSend({ ...toSend, [e.target.name]: e.target.value });
     };
 
