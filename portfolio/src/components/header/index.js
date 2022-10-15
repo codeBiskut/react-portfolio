@@ -3,10 +3,10 @@ import Nav from "../nav";
 
 
 
-function Header() {
+function Header({handleClick, currentPage}) {
     return (
         <div className="header">
-            <Nav />
+            <Nav handleClick={handleClick} currentPage={currentPage}/>
         </div>
     )
 }
