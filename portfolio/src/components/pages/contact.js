@@ -1,20 +1,69 @@
+import { useState } from 'react';
+import { send } from 'emailjs-com';
+
 function Contact() {
+
+    const [toSend, setToSend] = useState({
+        from_name: '',
+        message: '',
+        reply_to: '',
+    });
+
+    const onSubmit = (e) => {
+        e.preventDefault();
+        send(
+            'service_2hh7mkw',
+            'template_g61qna9',
+            toSend,
+            'EwUJm6QQyXFRY-Gb_'
+        )
+            .then((response) => {
+                console.log('SUCCESS!', response.status, response.text);
+            })
+            .catch((err) => {
+                console.log('FAILED...', err);
+            });
+    };
+
+    const handleChange = (e) => {
+        setToSend({ ...toSend, [e.target.name]: e.target.value });
+    };
+
     return (
         <div id="contact-page">
-            <form>
-                <div className="form-group">
-                    <label htmlFor="inputName">Name</label>
-                    <input type="name" className="form-control" id="inputName" placeholder="Name" />
-                </div>
-                <div className="form-group">
+            <form onSubmit={onSubmit}>
+                <div className='form-group'>
+                    <label htmlFor="from_name">Name</label>
+                    <input
+                        className='form-control'
+                        type='text'
+                        name='from_name'
+                        placeholder='From'
+                        value={toSend.from_name}
+                        onChange={handleChange}
+                    /></div>
+                <div className='form-group'>
                     <label htmlFor="inputEmail">Email address</label>
-                    <input type="email" className="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email" />
-                </div>
-                <div className="form-group">
+                    <input
+                        className='form-control'
+                        type='text'
+                        name='reply_to'
+                        placeholder='Your email'
+                        value={toSend.reply_to}
+                        onChange={handleChange}
+                    /></div>
+                <div className='form-group'>
                     <label htmlFor="inputMessage">Message</label>
-                    <textarea className="form-control" id="inputTextarea"></textarea>
-                </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
+                    <textarea
+                        className='form-control'
+                        type='text'
+                        name='message'
+                        placeholder='Your message'
+                        value={toSend.message}
+                        onChange={handleChange}
+                    /></div>
+
+                <button className="btn btn-primary" type='submit'>Submit</button>
             </form>
         </div>
     )
