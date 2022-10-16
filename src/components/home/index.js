@@ -4,6 +4,7 @@ import Contact from "../pages/contact";
 import Projects from "../projects/projects";
 import Footer from "../footer";
 import Header from "../header";
+import "./home.css"
 
 export function Home() {
 
@@ -24,8 +25,8 @@ export function Home() {
     return (
         <div className="homepage">
             <Header handleClick={handleClick} currentPage={currentPage}/>
-            <div className="d-flex justify-content-center">
-                <div className="card p-2 m-3 w-75">{
+            <div className="d-flex justify-content-center center-color">
+                <div className="card p-2 m-3 w-75 card-color">{
                     (() => {
                         switch (currentPage) {
                             case 'About Me':

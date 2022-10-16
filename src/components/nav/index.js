@@ -1,11 +1,12 @@
 import React from "react";
+import "./nav.css"
 
 function Nav({handleClick, currentPage}) {
 
 
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark header-color">
             <a className="navbar-brand px-4" href="#">Joshua Rinehart</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
