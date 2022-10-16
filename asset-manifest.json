@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.20e39a32.css",
-    "main.js": "/portfolio/static/js/main.7f80cf88.js",
-    "static/media/proj2.png": "/portfolio/static/media/proj2.7c26e103c640d16b7ee5.png",
-    "static/media/project1.png": "/portfolio/static/media/project1.e31f0e40d77227600313.png",
-    "static/media/weather-dashboard.png": "/portfolio/static/media/weather-dashboard.f55feba2be386a5b7854.png",
-    "static/media/work-day-sched.png": "/portfolio/static/media/work-day-sched.67e91883242ca930ff41.png",
-    "static/media/password-gen.png": "/portfolio/static/media/password-gen.0cc27644c9175ee4fd02.png",
-    "static/media/headshot.jpg": "/portfolio/static/media/headshot.e4ac9f01500b84a4e1a9.jpg",
-    "index.html": "/portfolio/index.html",
-    "main.20e39a32.css.map": "/portfolio/static/css/main.20e39a32.css.map",
-    "main.7f80cf88.js.map": "/portfolio/static/js/main.7f80cf88.js.map"
+    "main.css": "/react-portfolio/static/css/main.20e39a32.css",
+    "main.js": "/react-portfolio/static/js/main.b5a3af6c.js",
+    "static/media/proj2.png": "/react-portfolio/static/media/proj2.7c26e103c640d16b7ee5.png",
+    "static/media/project1.png": "/react-portfolio/static/media/project1.e31f0e40d77227600313.png",
+    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.f55feba2be386a5b7854.png",
+    "static/media/work-day-sched.png": "/react-portfolio/static/media/work-day-sched.67e91883242ca930ff41.png",
+    "static/media/password-gen.png": "/react-portfolio/static/media/password-gen.0cc27644c9175ee4fd02.png",
+    "static/media/headshot.jpg": "/react-portfolio/static/media/headshot.e4ac9f01500b84a4e1a9.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.20e39a32.css.map": "/react-portfolio/static/css/main.20e39a32.css.map",
+    "main.b5a3af6c.js.map": "/react-portfolio/static/js/main.b5a3af6c.js.map"
   },
   "entrypoints": [
     "static/css/main.20e39a32.css",
-    "static/js/main.7f80cf88.js"
+    "static/js/main.b5a3af6c.js"
   ]
 }
