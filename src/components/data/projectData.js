@@ -3,6 +3,7 @@ import weatherDash from '../../assets/weather-dashboard.png';
 import workdaySched from '../../assets/work-day-sched.png';
 import proj1 from '../../assets/project1.png';
 import proj2 from '../../assets/proj2.png';
+import proj3 from '../../assets/proj3.png',
 
 export const ProjectData = [
     {
@@ -15,6 +16,15 @@ export const ProjectData = [
     },
     {
         id:2,
+        title:'Happy Camper',
+        about: 'This project allows you to create and save custom pins on a map to save locations that you enjoyed on your trip, or plan another trip!',
+        demo:'https://project-3-osu-akf.herokuapp.com/',
+        github:'https://github.com/erin-maxson/happy-camper',
+        image: proj3
+
+    },
+    {
+        id:3,
         title:'Weather Dashboard',
         about:'This project used the OpenWeather API to search for weather in a user-defined city and render the results to cards.',
         demo:'https://codebiskut.github.io/Weather-Dashboard/',
@@ -22,7 +32,7 @@ export const ProjectData = [
         image: weatherDash
     },
     {
-        id:3,
+        id:4,
         title:'Workday Scheduler',
         about:'This project allows you to schedule your work day via hour timeblocks, and displays whether the event is past, present, or future.',
         demo:'https://codebiskut.github.io/Work-Day-Scheduler/',
@@ -30,7 +40,7 @@ export const ProjectData = [
         image: workdaySched
     },
     {
-        id:4,
+        id:5,
         title:'Password Generator',
         about: 'Generate a secure password with this program! It asks the user a series of questions about what they would like to include in the password, then generates the password and displays it in an alert.',
         demo:'https://codebiskut.github.io/c3_password_generator/',
@@ -38,7 +48,7 @@ export const ProjectData = [
         image: passGen
     },
     {
-        id:5,
+        id:6,
         title:'Coder\'s Almanac',
         about:'This is a site to view planting dates and plant information! Default plants are provided, and users can signup and enter their own custom plants.',
         demo:'https://project-two-enm.herokuapp.com/',
