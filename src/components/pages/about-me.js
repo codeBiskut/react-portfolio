@@ -1,4 +1,4 @@
-import headshot from '../../assets/headshot.jpg'
+import headshot from '../../assets/maybeHeadshot-min.jpg'
 
 function AboutMe() {
     return (
