@@ -1,16 +1,12 @@
 import headshot from '../../assets/headshot3.jpg'
+import '../../styles/about-me.css'
 
 function AboutMe() {
     return (
         <div id="about-me-page  ">
             <div className='image-container d-flex justify-content-center p-4'>
                 <img src={headshot}
-                    className="headshot" style={{
-                        borderRadius: "50%",
-                        width: 300,
-                        height: 300,
-                        objectFit: 'contain'
-                    }} />
+                    className="headshot" />
             </div>
             <hr className="rounded justify-content-center"></hr>
             <div className='text-container p-4'>

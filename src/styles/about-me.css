@@ -1,0 +1,16 @@
+.headshot {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+
+}
+
+@media screen and (max-width: 567px) {
+    .headshot {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: contain;
+    }
+}
