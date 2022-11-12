@@ -3,7 +3,7 @@ import weatherDash from '../../assets/weather-dashboard.png';
 import workdaySched from '../../assets/work-day-sched.png';
 import proj1 from '../../assets/project1.png';
 import proj2 from '../../assets/proj2.png';
-import proj3 from '../../assets/proj3.png'
+import proj3 from '../../assets/happy-camper.png'
 
 export const ProjectData = [
     {
