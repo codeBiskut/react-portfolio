@@ -33,8 +33,8 @@ function Contact() {
     return (
         <div id="contact-page">
             <form onSubmit={onSubmit}>
-                <div className='form-group'>
-                    <label htmlFor="from_name">Name</label>
+                <div className='form-group p-2'>
+                    <label className='' htmlFor="from_name">Name</label>
                     <input
                         className='form-control'
                         type='text'
@@ -43,7 +43,7 @@ function Contact() {
                         value={toSend.from_name}
                         onChange={handleChange}
                     /></div>
-                <div className='form-group'>
+                <div className='form-group p-2'>
                     <label htmlFor="inputEmail">Email address</label>
                     <input
                         className='form-control'
@@ -53,7 +53,7 @@ function Contact() {
                         value={toSend.reply_to}
                         onChange={handleChange}
                     /></div>
-                <div className='form-group'>
+                <div className='form-group p-2'>
                     <label htmlFor="inputMessage">Message</label>
                     <textarea
                         className='form-control'
@@ -64,7 +64,7 @@ function Contact() {
                         onChange={handleChange}
                     /></div>
 
-                <button className="btn btn-primary" type='submit'>Submit</button>
+                <div className='p-2'><button className="btn btn-primary" type='submit'>Submit</button></div>
             </form>
         </div>
     )
