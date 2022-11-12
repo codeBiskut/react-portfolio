@@ -23,6 +23,7 @@ function Nav({ handleClick, currentPage }) {
                 <div className="navbar-nav">
                     <a onClick={handleClick} className={`nav-item nav-link px-3 ${currentPage === 'About Me' ? 'active' : ''}`}>About Me</a>
                     <a onClick={handleClick} className={`nav-item nav-link px-3 ${currentPage === 'Projects' ? 'active' : ''}`}>Projects</a>
+                    <a onClick={handleClick} className={`nav-item nav-link px-3 ${currentPage === 'Resume' ? 'active' : ''}`}>Resume</a>
                     <a onClick={handleClick} className={`nav-item nav-link px-3 ${currentPage === 'Contact' ? 'active' : ''}`}>Contact</a>
                 </div>
             </div>
